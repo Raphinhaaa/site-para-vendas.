@@ -10,10 +10,12 @@
 
 <body>
     <header>
+
         <div class="header-container">
             <h1 class="store-name">Catatau Store</h1>
             <input type="text" id="searchBar" placeholder="Pesquise produtos..." onkeyup="filterProducts()">
         </div>
+      
     </header>
 
     <section>
@@ -27,28 +29,67 @@
                     <span>R$93,40</span>
                 </div>
 
-                <div class="product" data-name="chinelo de ferro2">
-                    <h2>Chinelo de Ferro</h2>
+                <div class="product" data-name=" Chinelo de ferro2">
+                    <h2> Chinelo de Ferro </h2>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-R2ewMuXlFt24UFvWUiUcqLYvYc1IJuK2wA&s"
-                        width="350" height="350" alt="Chinelo de ferro">
-                    <p>Chinelo feito com ferro e solda, resistente a Tudo!.</p>
+                        width="350" height="350" alt=" Chinelo de ferro">
+                    <p> Chinelo feito com ferro e solda, resistente a Tudo!.</p>
                     <span>R$ 150,00</span>
                 </div>
 
                 <div class="product" data-name="tênis3">
-                    <h2>Tênis da Balenciaga</h2>
+                    <h2> Tênis da Balenciaga</h2>
                     <img src="https://s2-g1.glbimg.com/cAmJWsOozV1FyZVjGYMcfWUKBqM=/0x0:859x654/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/u/u/tKoBw4TpGhAIh1ba5FFQ/balenciaga.png"
-                        width="350" height="350" alt="Balenciaga">
+                        width="350" height="350" alt=" Balanciaga">
                     <p>Design retrô com sola de borracha e tela desgastada.</p>
-                    <span>R$ 10.000,00</span>
+                    <span>R$ 10.000,00 </span>
                 </div>
-                
-            </div>
+
+                <div class="product" data-name="Chinela4">
+                    <h2> Chinelo com a correia arrebnetadada</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIMihQ1ZV9Syq0PIKc0s7cwOgwed4tXeSZmA&s"
+                        width="350" height="350" alt="chinelo">
+                    <p>Design retrô com sola de borracha e tela desgastada.</p>
+                    <span>R$ 35,00</span>
+                </div>
+
+                <div class="product" data-name="stanley5">
+                    <h2> Garrafa Stanley Flip</h2>
+                    <img src="https://d3u78y5eqxgzxv.cloudfront.net/Custom/Content/Products/54/33/54335_garrafa-term-go-flip-charc-709ml-stanley-1un-pr-11886-803201_m4_638210634619089308.png"
+                        width="350" height="350" alt=" garrafa">
+                    <p>Garrafa Térmica go flip 709ML stanley.</p>
+                    <span>R$ 280,00</span>
+                </div>
+
+                <div class="product" data-name="stanley5">
+                    <h2> Garrafa Stanley Flip Straw Saffron</h2>
+                    <img src="https://www.stanley1913.com.br/cdn/shop/files/285286-17.jpg?v=1719250571" width="350"
+                        height="350" alt=" garrafa">
+                    <p>Isolamento à vácuo de parede dupla.</p>
+                    <span>R$ 280,00</span>
+                </div>
+
+
+                <div class="product" data-name="Yoyo Profissional7">
+                    <h2> Garrafa Stanley Flip Straw Polar</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCCsSBbL1fd4iroaA01QSrBoWWB_sWg88DfA&s"  width="350"
+                    height="350" alt=" garrafa">
+                      <p>Feita inteiramente com uma parede dupla de aço inoxidável e com vedação a vácuo.</p>
+                    <span>R$ 326,00</span>
+                </div>
+
+                <div class="product" data-name="Yoyo Profissional8">
+                    <h2> Garrafa de Café Stanley luxo </h2>
+                    <img src="https://static.wixstatic.com/media/636e6a_ffddf774f0294bc89a436db5cfa53c90~mv2.png/v1/fill/w_480,h_418,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/636e6a_ffddf774f0294bc89a436db5cfa53c90~mv2.png" width=350 height="350"
+                    height="350" alt=" vibrador">
+                    <p> Fabricada com materiais de alta qualidade, a Garrafa Térmica Albema garante que sua bebida fique quente ou fria por até 6 a 8 horas. </p>
+                    <span>R$ 1.000,00</span>
+                </div>
         </main>
     </section>
 
     <div id="noResultsMessage" style="display:none; text-align:center; color:rgb(255, 255, 255);">Nenhum produto
-        com essa pesquisa foi encontrado.</div>
+        encontrado.</div>
 
     <script>
         function filterProducts() {
