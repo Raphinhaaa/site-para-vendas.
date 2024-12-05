@@ -18,6 +18,28 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar-left h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #f0f0f0;
+}
+
+.navbar-right input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  color: #f0f0f0;
+}
+
 header h1 {
   margin: 0;
   font-size: 24px;
@@ -177,4 +199,10 @@ header input {
     .hamburger {
         display: flex;
     }
+}
+
+@media (max-width: 768px) {
+  .navbar-right input {
+    width: 100%;
+  }
 }
