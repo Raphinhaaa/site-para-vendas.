@@ -57,7 +57,7 @@ header input {
 }
 
 
-.produtos {
+.products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -67,7 +67,7 @@ header input {
 }
 
 
-.produto {
+.product {
   background: #2c2c2c;
   border: 1px solid #444;
   border-radius: 8px;
@@ -82,12 +82,12 @@ header input {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
 }
 
-.produto:hover {
+.product:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);  
 }
 
-.produto img {
+.product img {
   width: 200px;
   height: auto;
   border-bottom: 1px solid #444;
@@ -96,21 +96,21 @@ header input {
 }
 
 
-.produto h2 {
+.product h2 {
   font-size: 18px;
   margin: 10px 0;
   color: #f0f0f0;
 }
 
 
-.produto p {
+.product p {
   font-size: 14px;
   color: #bbb; 
   margin-bottom: 15px; 
 }
 
 
-.produto span {
+.product span {
   font-size: 16px;
   font-weight: bold;
   color: #4caf50; 
